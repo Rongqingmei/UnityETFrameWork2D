@@ -1,0 +1,13 @@
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Core.deps.json
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Core.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Core.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\DotNet.Core.csproj.AssemblyReference.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\DotNet.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\DotNet.Core.AssemblyInfoInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\DotNet.Core.AssemblyInfo.cs
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\DotNet.Core.csproj.CoreCompileInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\DotNet.C.0F4929AF.Up2Date
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\Core.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\refint\Core.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\Core.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Core\obj\Debug\ref\Core.dll

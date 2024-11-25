@@ -1,0 +1,10 @@
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\bin\Debug\Share.SourceGenerator.deps.json
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\bin\Debug\Share.SourceGenerator.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\bin\Debug\Share.SourceGenerator.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.csproj.AssemblyReference.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.AssemblyInfoInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.AssemblyInfo.cs
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.csproj.CoreCompileInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.pdb

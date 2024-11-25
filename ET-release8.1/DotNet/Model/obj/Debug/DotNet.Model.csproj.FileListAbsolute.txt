@@ -1,0 +1,13 @@
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Model.deps.json
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Model.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Model.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\DotNet.Model.csproj.AssemblyReference.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\DotNet.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\DotNet.Model.AssemblyInfoInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\DotNet.Model.AssemblyInfo.cs
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\DotNet.Model.csproj.CoreCompileInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\DotNet.M.982713FF.Up2Date
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\Model.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\refint\Model.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\Model.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Model\obj\Debug\ref\Model.dll

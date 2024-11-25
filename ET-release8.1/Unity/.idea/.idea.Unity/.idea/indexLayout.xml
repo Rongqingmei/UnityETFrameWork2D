@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelUserStore">
+    <attachedFolders />
+    <explicitIncludes>
+      <Path>Library/PackageCache/com.code-philosophy.hybridclr@51da1d4c43</Path>
+      <Path>Library/PackageCache/com.cysharp.memorypack@2554e81f03</Path>
+      <Path>Library/PackageCache/com.tuyoogame.yooasset@2.1.1</Path>
+      <Path>Library/PackageCache/com.unity.ai.navigation@1.1.5</Path>
+      <Path>Library/PackageCache/com.unity.burst@1.8.11</Path>
+      <Path>Library/PackageCache/com.unity.ext.nunit@1.0.6</Path>
+      <Path>Library/PackageCache/com.unity.ide.rider@3.0.27</Path>
+      <Path>Library/PackageCache/com.unity.ide.visualstudio@2.0.22</Path>
+      <Path>Library/PackageCache/com.unity.ide.vscode@1.2.5</Path>
+      <Path>Library/PackageCache/com.unity.mathematics@1.2.6</Path>
+      <Path>Library/PackageCache/com.unity.scriptablebuildpipeline@1.21.21</Path>
+      <Path>Library/PackageCache/com.unity.searcher@4.9.2</Path>
+      <Path>Library/PackageCache/com.unity.test-framework@1.1.33</Path>
+      <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
+      <Path>Library/PackageCache/com.unity.timeline@1.7.6</Path>
+      <Path>Packages</Path>
+      <Path>ProjectSettings</Path>
+    </explicitIncludes>
+    <explicitExcludes>
+      <Path>.idea</Path>
+      <Path>Builds</Path>
+      <Path>Bundles</Path>
+      <Path>HybridCLRData</Path>
+      <Path>Library</Path>
+      <Path>Logs</Path>
+      <Path>Temp</Path>
+      <Path>UserSettings</Path>
+      <Path>obj</Path>
+    </explicitExcludes>
+  </component>
+</project>

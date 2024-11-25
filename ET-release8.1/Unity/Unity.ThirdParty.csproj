@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>ET</RootNamespace>
+    <ProjectGuid>{d2ad5be1-263a-9a30-ab0f-dc5b08044350}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.ThirdParty</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.ThirdParty\</OutputPath>
+    <DefineConstants>UNITY_2022_3_15;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY;ENABLE_VIEW;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\Share.SourceGenerator.dll" />
+    <Analyzer Include="E:\UnityEditors\2022.3.15f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="E:\UnityEditors\2022.3.15f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Library\PackageCache\com.cysharp.memorypack@2554e81f03\Runtime\MemoryPack.Generator\MemoryPack.Generator.Roslyn3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Body.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcContourRegion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Kcp\ikcpc.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtStraightPathOption.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactSolverDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\PrismaticJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\Queue.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\Queue.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\IUpdateQueueItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\MultiMap.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\World.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\Stack.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\MathExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\RcChunkyTriMeshNode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastLayers.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpSegment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtSegment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DefaultQueryHeuristic.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcArrayUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastCommon.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\DynamicTile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\WeldJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\Fix64SinLut.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\PolyUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNavMeshBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\MotorJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtObstacleSegment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\RcOffMeshConnection.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\AbstractGroundSampler.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcSpan.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSMatrix4x4.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNodePool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\AddColliderQueueItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\EdgeSampler.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\WeldJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\NativeStackPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\FrictionJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\Compress\IDtTileCacheCompressorFactory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtNavMeshParamWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\ContactFeature.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcAtomicInteger.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtPathQueryResult.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\RayCastOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcContourHoleComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtPolyDetail.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\TimeStep.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtCompressedTile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\IRcCompressor.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\ClimbTrajectory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcSortedQueue.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdAgentState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\HashHelpers.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\Compress\DtTileCacheCompressorFactory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtObstacleAvoidanceParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\RopeBend.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNodeQueue.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\FMath.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\ColliderCircle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\DynamicNavMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\FVector2.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\SimplexCache.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\Trajectory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\PolygonAndCircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\DynamicTileCheckpoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\Stack.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcHeightfieldLayerSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCachePolyMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheObstacle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\List.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\Fix64TanLut.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcTelemetry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\MassData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtMeshSetWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\GroundSample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSVector4.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\DtTileCacheLayerHeaderReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\FVector3.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcConstants.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdTimerLabel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\Intersections.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\Matrix3x3.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\NavMeshGroundSampler.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\ContactManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\DistanceOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\Fix64TanLut.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\PolygonShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\ChainShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\IDtPolyQuery.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtMeshData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSQuaternion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpSegmentBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ChainAndCircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\GroundSegment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcImmutableArray.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtFindNearestPolyQuery.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcByteOrder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\AsyncETTaskCompletedMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\PolyUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\IQueryHeuristic.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\ThrowHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\IContactFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcAtomicFloat.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\CollectionExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\FRandom.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\ObjImporter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtMeshSetReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\NavMeshSetHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNavMeshCreateParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtPolyPoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtQueryEmptyFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\RopeDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\VelocityConstraintPoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\BVTreeBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\SimplexVertex.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPolyMeshDetail.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\IContactFactory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcCompactHeightfield.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\NativeMemoryHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\IRecastBuilderProgressListener.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtQueryDefaultFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNavMeshRaycast.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\CircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\DistanceJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Io\VoxelTile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\BendingModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\INativeCollectionClass.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Io\VoxelFileReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtBVNode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSMatrix.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\VoxelQuery.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\List.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtQueryNoOpFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\FixedArray.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\RemoveColliderQueueItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Velocity.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactImpulse.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtMeshDataReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\Map.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\IDtTileCacheMeshProcess.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\PrismaticJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\IAwaiter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpLinkBuilderConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\CompositeCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowd.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\DtTileCacheReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastContour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ChainAndPolygonContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\RevoluteJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtObstacleAvoidanceQuery.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\Rope.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpLinkBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPolyMeshRaycast.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\IGroundSampler.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\RopeStretch.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcMath.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\Compress\DtTileCacheFastLzCompressor.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\FP.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\AABB.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcTelemetryTick.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\BoxCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTempContour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\AsyncETTaskMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETTaskHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcCompactSpan.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCache.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtPathQueue.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtLayerMonotoneRegion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtMeshHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\PathUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\TrajectorySampler.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Rotation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\HashSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNoOpDtPolygonByCircleConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcRegion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastRasterization.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\Fix64SinLut.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\SortedSet\SortedSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtPathQuery.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactEdge.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcImmutableArray.Minimal.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\Contact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSRandom.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\DtTileCacheSetHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtSegInterval.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtObstacleState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\TrimeshCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\WheelJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\Joints.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheContourSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastVoxelization.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\DtTileCacheWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\BVItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\RopeTuning.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\BoundsItemYComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastCompact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Profile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactSolver.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\EdgeAndPolygonContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtConnectPoly.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtObstacleCircle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\ManifoldPoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\MultiMap\MultiMapPair.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\GearJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcConvexUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\Sweep.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\CapsuleCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\Loader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtStatus.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Intersection.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Kcp\KcpPatial.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpLinkType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpLink.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\StretchingModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\DumpLogger.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNavMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\CircleShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtProximityGrid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\DefaultContactFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\Shape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\StraightPathItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\RevoluteJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\BVItemXComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\UnOrderMap\UnOrderMap.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Callbacks.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\ShapeCastOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\PositionSolverManifold.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETVoid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\ManifoldType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\BodyFlags.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Io\VoxelFile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\CylinderCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcSegmentVert.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\DistanceProxy.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcFrequency.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\Tracking\DtObstacleAvoidanceDebugData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\SortedSet\Node.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtOffMeshConnection.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\Map\Map.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Color.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPolyMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Settings.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\Map\MapPair.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcContourSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\IDestructionListener.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheLayer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcContourHole.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNavMeshParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheContour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNavMeshQuery.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\WheelJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcHeightPatch.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\FixedSizeMemoryPool\FixedSizeMemoryPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpTrajectory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\GearJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcImmutableArray.Listable.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Ropes\RopeJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtQueryData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastBuilderConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\Fix64AcosLut.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\RcTriMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtRaycastHit.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\DistanceJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnOrderMap.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\Io\DtTileCacheLayerHeaderWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtLayerSweepSpan.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Position.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcSweepSpan.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Drawer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\RayCastInput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\DynamicNavMeshConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\PointState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\TileCacheObstacleType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Kcp\ikcph.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdTelemetry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Island.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\EdgeSamplerFactory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\AbstractCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\PulleyJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\AcosLut.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\Tracking\DtCrowdAgentDebugInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcMatrix4X4.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcHeightfieldLayer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastBuilderResult.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\CollisionUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\MouseJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\ICollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\ColliderEdge.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Simplex.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSVector.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\EdgeShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Math\Matrix2x2.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPartition.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\BVItemYComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\ContactID.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETTask.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcAreaModification.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\BoundsItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcByteBuffer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\Transform.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\DynamicTree.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\RcChunkyTriMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtPoly.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Io\ByteUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\IDtPolygonByCircleConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\ObjImporterContext.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Common\DrawFlag.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactPositionConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\BoundsItemXComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\ConvexTrimeshCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\SortedSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtMoveRequestState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\MotorJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheLayerBuildResult.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Colliders\SphereCollider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\TimeOfImpact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastFilledVolumeRasterization.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcHashCodes.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcConvexVolume.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\PolyQueryInvoker.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\EdgeAndCircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcLayerRegion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtLink.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\MouseJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DetourBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastRegion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\Compression\FastLZ.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\WorldManifold.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\PulleyJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtLocalBoundary.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\BroadPhase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\IContactListener.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcTimerLabel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Fixture.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\JumpEdge.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\StateMachineWrap.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Kcp\Kcp.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\NavMeshTileHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPotentialDiagonalComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastArea.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\SimpleInputGeomProvider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Shapes\ShapeType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\Jumplink\EdgeExtractor.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\InFlag.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtNavMeshParamsReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\IOUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPartitionType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSVector2.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\FRand.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\IRcRand.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcPotentialDiagonal.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactVelocityConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcCompactCell.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\ContactPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdNeighbour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\FixedSizeMemoryPool\Slab.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastMeshDetail.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\Geom\IInputGeomProvider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\HashSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\IDtQueryFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcImmutableArray.Enumerable.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcVec3f.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\SolverData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcAtomicLong.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETTaskCompleted.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdAgentAnimation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\NativePool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcHeightfield.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\ShapeCastInput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtMeshTile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\DistanceInput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcAtomicBoolean.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RecastFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheLayerHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcVec2f.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETCancellationToken.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Recast\RcContour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Extras\ObjExporter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Joints\FrictionJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Dynamic\Io\VoxelFileWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Dynamics\Contacts\PolygonContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\NativeCollection\UnsafeType\MultiMap\MultiMap.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdAgentParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\BVItemZComparer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\Manifold.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\ConvexConvexIntersection.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtStrictDtPolygonByCircleConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtFindPathOption.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheLayerBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\DistanceAlgorithm.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\AsyncETVoidMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\TSMath.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\Io\DtMeshDataWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtCrowdAgent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\DtTileCacheStorageParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcEdge.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour\DtNode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.Crowd\DtPathCorridor.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Core\RcAnonymousDisposable.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\ColliderPolygon.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\ObstacleRequestAction.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\DotRecast\Detour.TileCache\ObstacleRequest.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2DSharp\Collision\Collider\ClipVertex.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TrueSync\Fix64.cs" />
+    <None Include="Assets\Scripts\ThirdParty\TrueSync\link.xml" />
+    <None Include="Assets\Scripts\ThirdParty\Unity.ThirdParty.asmdef" />
+    <Reference Include="NLog">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Library\PackageCache\com.code-philosophy.hybridclr@51da1d4c43\Plugins\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandLine">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\MongoDB.Libmongocrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Assets\Plugins\MongoDB\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\UnityEditors\2022.3.15f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="MemoryPack">
+      <HintPath>E:\UnityProjects\ZombineRunOthers\ET-release8.1\Unity\Library\ScriptAssemblies\MemoryPack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

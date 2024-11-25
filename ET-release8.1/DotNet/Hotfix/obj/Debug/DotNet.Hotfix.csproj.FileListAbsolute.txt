@@ -1,0 +1,13 @@
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Hotfix.deps.json
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Hotfix.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\Hotfix.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.csproj.AssemblyReference.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.GeneratedMSBuildEditorConfig.editorconfig
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.AssemblyInfoInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.AssemblyInfo.cs
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.csproj.CoreCompileInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\DotNet.H.534EEE23.Up2Date
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\Hotfix.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\refint\Hotfix.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\Hotfix.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\Hotfix\obj\Debug\ref\Hotfix.dll

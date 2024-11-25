@@ -1,0 +1,12 @@
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\ThirdParty.deps.json
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\ThirdParty.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\Bin\ThirdParty.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.csproj.AssemblyReference.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.GeneratedMSBuildEditorConfig.editorconfig
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.AssemblyInfoInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.AssemblyInfo.cs
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.csproj.CoreCompileInputs.cache
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\ThirdParty.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\refint\ThirdParty.dll
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\ThirdParty.pdb
+E:\UnityProjects\ZombineRunOthers\ET-release8.1\DotNet\ThirdParty\obj\Debug\ref\ThirdParty.dll
